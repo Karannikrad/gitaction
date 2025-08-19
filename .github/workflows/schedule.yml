@@ -4,7 +4,7 @@ name:Basic Commands
     -main
    schedule:
     -corn:"*/2****"#Every two miniutes UTC
-   workflow_dispatch: #Manual trigger
+   workflow_dispatch: 
 jobs:
  demo-commands:
    runs-on:ubuntu-latest
