@@ -3,15 +3,15 @@ name: Basic Commands
 
  on:
    schedule:
-    -corn:"*/2****"#Every two miniutes UTC
+    -corn: "*/2****"#Every two miniutes UTC
    workflow_dispatch: 
 jobs:
  demo-commands:
-   runs-on:ubuntu-latest
+   runs-on: ubuntu-latest
 
    steps:
-    -name:Show current working directory
-     run:pwd
-    -name:List files in the directory
-     run:ls-la
+    -name: Show current working directory
+     run: pwd
+    -name: List files in the directory
+     run: ls-la
   
