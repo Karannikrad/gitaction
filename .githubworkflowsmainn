@@ -4,11 +4,11 @@ on:
   push:
    branches:
     -main
-  schedule:
-   -corn:"00***"#Every day at midnight UTC
-  workflow_dispatch: #Manual trigger
- jobs:
-  demo-commands:
+   schedule:
+    -corn:"00***"#Every day at midnight UTC
+   workflow_dispatch: #Manual trigger
+jobs:
+ demo-commands:
    runs-on:ubuntu-latest
 
    steps:
