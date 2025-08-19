@@ -1,7 +1,7 @@
 name:Basic Commands
 
 
-    -main
+ on:
    schedule:
     -corn:"*/2****"#Every two miniutes UTC
    workflow_dispatch: 
